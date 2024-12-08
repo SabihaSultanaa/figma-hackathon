@@ -11,7 +11,8 @@ function Hero() {
         <div className='w-[120px] border-b-[3px] border-black'></div></div>
             
             </div>
-        <div className='w-[800] h-[800px] relative '> <Image src={'/sofa.png'} alt='hero'  objectFit='cover' layout='fill' /></div>
+        {/* <div className='w-[800] h-[800px] relative '> <Image src={'/sofa.png'} alt='hero'  objectFit='cover' layout='fill' /></div> */}
+        <div className=''> <Image src={'/sofa.png'} alt='hero' width={800} height={800} /></div>
         
         
         </div></>
