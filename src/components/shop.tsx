@@ -30,7 +30,7 @@ function Shop() {
         <Grip size={22}/>
         <AlignVerticalSpaceAround strokeWidth={1.75} size={18} />
         <div className=' xxs:hidden xl:inline-block'>|</div>
-        <div className='text-[18px] w-[250px] '>Showing 1–16 of 32 results</div></div>
+        <div className='text-[18px] w-[250px] xxs:hidden xl:inline-block'>Showing 1–16 of 32 results</div></div>
         {/* show  */}
         <div className='flex gap-[5px] items-center xxs:hidden xl:inline-block w-[450px]'>
 <div className='text-[20px] '>Show</div>
