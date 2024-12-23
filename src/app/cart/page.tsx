@@ -30,11 +30,11 @@ export default function CartPage() {
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Cart Items */}
           <div className="lg:w-2/3">
-            <div className="bg-[#FFF9E6] p-4 grid grid-cols-4 font-medium mb-4">
+            <div className="bg-[#FFF9E6] p-4  grid grid-cols-4 font-medium mb-4">
               <div>Product</div>
-              <div>Price</div>
-              <div>Quantity</div>
-              <div>Subtotal</div>
+              <div className='xxs:hidden xl:inline-block'>Price</div>
+              <div className=' xxs:ml-[25px] xl:ml-[0px]' >Quantity</div>
+              <div className='xxs:ml-[55px] xl:ml-[0px]'>Subtotal</div>
             </div>
 
             <div className="flex items-center py-8 border-b">
@@ -43,18 +43,18 @@ export default function CartPage() {
                   <div className="w-[106px] h-[106px] bg-[#FBEBB5] rounded-lg flex items-center justify-center">
                     <img src="/asgaard.png" alt="Asgaard sofa" className="w-28" />
                   </div>
-                  <span className="text-gray-500">Asgaard sofa</span>
+                  <span className="text-gray-500 xxs:hidden xl:inline-block">Asgaard sofa</span>
                 </div>
                 <div className="text-gray-500">Rs. 250,000.00</div>
-                <div>
+                <div className='xxs:ml-[30px] xl:ml-[0px]'>
                   <div className="w-8 h-8 border border-gray-400 rounded flex items-center justify-center">
                     1
                   </div>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span>Rs. 250,000.00</span>
+                  <span className='xxs:hidden xl:inline-block'>Rs. 250,000.00</span>
                   <button className="text-gray-500 hover:text-gray-700">
-                    <Trash2 className="w-7 h-7" />
+                    <Trash2 className="w-7 h-7 xxs:ml-[30px] xl:ml-[0px]" />
                   </button>
                 </div>
               </div>
@@ -68,11 +68,11 @@ export default function CartPage() {
               <div className="space-y-4 mb-8">
                 <div className="flex justify-between items-center">
                   <span className="font-medium">Subtotal</span>
-                  <span className="text-gray-500">Rs. 250,000.00</span>
+                  <span className="text-gray-500 xxs:hidden md:inline-block">Rs. 250,000.00</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="font-medium">Total</span>
-                  <span className="text-xl text-[#B88E2F]">Rs. 250,000.00</span>
+                  <span className="text-xl text-[#B88E2F] xxs:hidden md:inline-block">Rs. 250,000.00</span>
                 </div>
               </div>
               <Button 

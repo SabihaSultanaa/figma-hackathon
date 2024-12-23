@@ -29,7 +29,7 @@ function Shop() {
         <div className='text-[20px]'>Filter</div>
         <Grip size={22}/>
         <AlignVerticalSpaceAround strokeWidth={1.75} size={18} />
-        <div className=' '>|</div>
+        <div className=' xxs:hidden xl:inline-block'>|</div>
         <div className='text-[18px] w-[250px] '>Showing 1–16 of 32 results</div></div>
         {/* show  */}
         <div className='flex gap-[5px] items-center xxs:hidden xl:inline-block w-[450px]'>

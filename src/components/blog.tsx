@@ -11,7 +11,7 @@ function Blog() {
 <div className='text-[36px] font-semibold text-center pt-[55px]'>Our Blogs</div>
 <div className='text-[#9F9F9F] text-[16px] font-semibold text-center pt-[13px]'>Find a bright ideal to suit your taste with our great selection</div>
 {/* blogs card  */}
-<div className='mt-[64px] flex gap-[0px]  justify-evenly mx-[100px]'>
+<div className='mt-[64px] flex gap-[0px]  justify-evenly xl:mx-[100px] xxs:mx-[50px]'>
 {/* b1  */}
 <div className=''>
 <div className='xl:w-[330px]  xxs:w-[200px] xl:h-[350px] xxs:h-[200px]  relative'><Image src={'/b1.png'} alt='hero'  objectFit='cover' layout='fill'  className='rounded-[10px]'/></div>

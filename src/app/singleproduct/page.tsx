@@ -10,7 +10,7 @@ function SingleProduct() {
 
       <div>
         <Header/>
-        <div className="mx-[135px] my-[80px]">
+        <div className="xl:mx-[135px] my-[80px] xxs:mx-[30px]">
           <div className="w-[363px] h-[21px] text-gray-500 text-14px">
             Home &nbsp; / &nbsp; Shop &nbsp; / &nbsp;{" "}
             <span className="text-black font-normal">
@@ -19,7 +19,7 @@ function SingleProduct() {
           </div>
         </div>
 
-        <section className="flex gap-[16px]  xl:mx-[135px] my-[80px] xxs:mx-[10px]">
+        <section className="flex gap-[16px]  md:mx-[135px] my-[80px] xxs:mx-[0px]">
           <div className=" flex flex-col gap-[16px]">
             <div className="w-[170px] h-[138px] bg-[#FFF9E5] relative rounded-[4px] flex justify-center items-center">
               <Image
@@ -63,7 +63,7 @@ function SingleProduct() {
             ></Image>
           </div>
     {/* third new div corner  */}
-    <div className="xl:w-[500px]  xxs:w-[200px] h-[600px]  xl:ml-[60px]  xxs:ml-[10px]">
+    <div className="xl:w-[500px]  xxs:w-[200px] h-[600px]  xl:ml-[60px]  xxs:ml-[0px]">
                 <div className="text-[24px] font-semibold tracking-[1px]">
            
                 Asgaard sofa
@@ -84,7 +84,7 @@ function SingleProduct() {
 
            
 
-            <div className="text-[14px] mt-[10px] xl:w-[373px] xxs:w-[200px] h-[63px] text-justify">
+            <div className="text-[14px] mt-[10px] w-[373px] xxs:hidden lg:inline-block h-[63px] text-justify">
             Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.
 
             </div>
@@ -139,7 +139,7 @@ function SingleProduct() {
               </div>
            
             {/* buy now  */}
-            <div className="w-[180px] p-[20px] border-2 border-black text-[16px] text-center rounded-[10px] ">Add To Cart</div>
+            <div className="w-[180px] p-[20px] border-2 border-black text-[16px] text-center rounded-[10px] xxs:hidden md:inline-block ">Add To Cart</div>
           
             </div>
 

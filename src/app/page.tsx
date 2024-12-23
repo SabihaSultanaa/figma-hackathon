@@ -50,7 +50,7 @@ export default function ResponsiveNav() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className=" mt-4 pb-4">
+        <div className=" mt-4 pb-[0px] bg-red-500">
           <div className="flex flex-col space-y-4 text-lg font-semibold">
             <Link href="/" className="hover:text-gray-600">Home</Link>
             <Link href="/shop" className="hover:text-gray-600">Shop</Link>

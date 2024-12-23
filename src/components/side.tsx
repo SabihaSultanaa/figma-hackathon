@@ -44,7 +44,7 @@ function Side() {
 
 
 
-<div>
+<div className="xxs:hidden xl:inline-block">
 <div className='text-[36px] font-semibold mt-[60px]'> Side table</div>
 <div className="mt-[10px]"> <Link href={'/'} className=" font-semibold text-[24px]">View More</Link></div>
 <div className='w-[120px]  h-[10px] border-b-[3px] border-black'></div>
