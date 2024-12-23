@@ -32,7 +32,7 @@ function Shop() {
         <div className=' '>|</div>
         <div className='text-[18px] w-[250px] '>Showing 1–16 of 32 results</div></div>
         {/* show  */}
-        <div className='flex gap-[5px] items-center  w-[450px]'>
+        <div className='flex gap-[5px] items-center xxs:hidden xl:inline-block w-[450px]'>
 <div className='text-[20px] '>Show</div>
 <button className='w-[55px] h-[55px] text-[20px] bg-white'>16</button>
 <div className='text-[20px] w-[100px] '>Short By</div>

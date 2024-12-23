@@ -18,19 +18,19 @@ function Pick() {
 <div className='text-[24px] font-semibold mt-[6px]'>Rs. 25,000.00</div>
     </div>
     {/* pick2  */}
-    <div>
+    <div className='xxs:hidden sm:inline-block'>
     <div className='w-[287px] h-[287px] relative'><Image src={'/pick2.png'} alt='hero'  objectFit='cover' layout='fill' /></div>
 <div className='text-[16px] mt-[14px]'>Granite dining table with dining chair</div>
 <div className='text-[24px] font-semibold mt-[6px]'>Rs. 25,000.00</div>
     </div>
     {/* pick3  */}
-    <div>
+    <div className='xxs:hidden lg:inline-block'>
     <div className='w-[287px] h-[287px] relative'><Image src={'/pick3.png'} alt='hero'  objectFit='cover' layout='fill' /></div>
 <div className='text-[16px] mt-[14px]'>Outdoor bar table and stool</div>
 <div className='text-[24px] font-semibold mt-[6px]'>Rs. 25,000.00</div>
     </div>
     {/* pick4  */}
-    <div>
+    <div className='xxs:hidden lg:inline-block'>
     <div className='w-[287px] h-[287px] relative'><Image src={'/pick4.png'} alt='hero'  objectFit='cover' layout='fill' /></div>
 <div className='text-[16px] mt-[14px]'>Plain console with teak mirror</div>
 <div className='text-[24px] font-semibold mt-[6px]'>Rs. 25,000.00</div>

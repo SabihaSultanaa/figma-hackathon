@@ -1,33 +1,63 @@
-import { Heart, Search, ShoppingCart, User } from 'lucide-react'
+'use client'
+import { useState } from 'react'
 import Link from 'next/link'
-import React from 'react'
+import { User, Search, Heart, ShoppingCart, Menu, X } from 'lucide-react'
+
+export default function ResponsiveNav() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
 
 
-
-
-function Header() {
   return (
-    <>
-    <div className="w-full h-[100px] py-[35px] pl-[505px] pr-[100px] flex gap-[158px] bg-white">
-        <nav className='w-[430px] h-[24px] flex justify-center items-center gap-[75px] text-[18px] font-semibold'>
-            <Link href={'/'}>Home</Link>
-            <Link href={'/shop'}>Shop</Link>
-            <Link href={'/blog'}>About</Link>
-            <Link href={'/contact'}>Contact</Link>
-           
-        </nav>
-        <div className='w-[247px] h-[28px] flex gap-[45px]'> 
-            <Link href={'/account'}><User size={28} className="hover:text-gray-600  stroke-[2]" cursor="pointer"/></Link>
-            
-            <Link href={'/'}><Search size={28} className="hover:text-gray-600 stroke-[2]" /></Link>
-            <Link href={"/checkout"}> <Heart size={28} className="hover:text-gray-600  stroke-[2]" cursor="pointer"/></Link>
-            <Link href={"/cart"}> <ShoppingCart size={28} className="hover:text-gray-600 stroke-[2]" cursor="pointer"/></Link>
+  <>    
+   <nav className="w-full px-4 py-4 bg-white shadow-md">
+      <div className="container mx-auto flex justify-between items-center">
+        {/* Logo or Brand Name */}
+        <Link href="/" className="text-xl font-bold">
+          
+        </Link>
+
+        {/* Desktop Navigation */}
+        <div className="hidden xl:flex space-x-[100px] text-lg font-semibold">
+          <Link href="/" className="hover:text-gray-600">Home</Link>
+          <Link href="/shop" className="hover:text-gray-600">Shop</Link>
+          <Link href="/blog" className="hover:text-gray-600">About</Link>
+          <Link href="/contact" className="hover:text-gray-600">Contact</Link>
         </div>
-    </div>
-    
-    
+
+        {/* Desktop Icons */}
+        <div className="hidden xl:flex items-center space-x-[50px]">
+          <Link href="/account"><User size={24} className="hover:text-gray-600 stroke-2" /></Link>
+          <Link href="/singleproduct"><Search size={24} className="hover:text-gray-600 stroke-2" /></Link>
+          <Link href="/checkout"><Heart size={24} className="hover:text-gray-600 stroke-2" /></Link>
+          <Link href="/cart"><ShoppingCart size={24} className="hover:text-gray-600 stroke-2" /></Link>
+        </div>
+
+        {/* Mobile Menu Button */}
+        <button className="xl:hidden" onClick={toggleMenu}>
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </div>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className=" mt-4 pb-4">
+          <div className="flex flex-col space-y-4 text-lg font-semibold">
+            <Link href="/" className="hover:text-gray-600">Home</Link>
+            <Link href="/shop" className="hover:text-gray-600">Shop</Link>
+            <Link href="/blog" className="hover:text-gray-600">About</Link>
+            <Link href="/contact" className="hover:text-gray-600">Contact</Link>
+          </div>
+          <div className="flex justify-between mt-4">
+            <Link href="/account"><User size={24} className="hover:text-gray-600 stroke-2" /></Link>
+            <Link href="/singleproduct"><Search size={24} className="hover:text-gray-600 stroke-2" /></Link>
+            <Link href="/checkout"><Heart size={24} className="hover:text-gray-600 stroke-2" /></Link>
+            <Link href="/cart"><ShoppingCart size={24} className="hover:text-gray-600 stroke-2" /></Link>
+          </div>
+        </div>
+      )}
+    </nav>
     </>
   )
 }
-
-export default Header

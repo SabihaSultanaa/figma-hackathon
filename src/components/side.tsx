@@ -8,18 +8,18 @@ function Side() {
       <div className="h-[600px] w-full bg-[#FAF4F4]">
 
 
-        <div className="w-full h-[380px]   flex justify-center pt-[50px] relative ">
-          <div className=" ">
-            <Image
-              src={"/sidetable.png"}
-              alt="hero"
-              width={650}
-              height={650}
-              className="absolute left-[0px] pr-[50px]"
-            />
-          </div>
+<div className="w-full h-[380px] flex justify-center pt-[50px] relative ">
+  <div className="">
+    <Image
+      src={"/sidetable.png"}
+      alt="hero"
+      width={650}
+      height={650}
+      className="absolute left-[0px] pr-[50px]"
+    />
+  </div>
           
-<div className=" ">
+<div className="xxs:hidden xl:inline-block">
             <Image
               src={"/sidesofa.png"}
               alt="hero"

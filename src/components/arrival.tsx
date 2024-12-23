@@ -5,7 +5,7 @@ function Arrival() {
   return (
     <>
     <div className='w-full h-[600px] flex justify-center gap-[60px] px-[100px] bg-[#FFF9E5]'>
-        <div className='w-[750px] h-[650px] relative top-[0px]'>
+        <div className='lg:w-[750px] h-[650px] relative top-[0px] xxs:hidden lg:inline-block '>
         <Image src={'/asgaard.png'} alt='hero'  objectFit='cover' layout='fill' /></div>
         <div className='mt-[280px]'>
         <div className='text-[24px] font-semibold text-center'>New Arrivals</div>

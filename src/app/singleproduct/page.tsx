@@ -19,7 +19,7 @@ function SingleProduct() {
           </div>
         </div>
 
-        <section className="flex gap-[16px]  mx-[135px] my-[80px]">
+        <section className="flex gap-[16px]  xl:mx-[135px] my-[80px] xxs:mx-[10px]">
           <div className=" flex flex-col gap-[16px]">
             <div className="w-[170px] h-[138px] bg-[#FFF9E5] relative rounded-[4px] flex justify-center items-center">
               <Image
@@ -63,7 +63,7 @@ function SingleProduct() {
             ></Image>
           </div>
     {/* third new div corner  */}
-    <div className="w-[500px] h-[600px]  ml-[60px]">
+    <div className="xl:w-[500px]  xxs:w-[200px] h-[600px]  xl:ml-[60px]  xxs:ml-[10px]">
                 <div className="text-[24px] font-semibold tracking-[1px]">
            
                 Asgaard sofa
@@ -84,7 +84,7 @@ function SingleProduct() {
 
            
 
-            <div className="text-[14px] mt-[10px] w-[373px] h-[63px] text-justify">
+            <div className="text-[14px] mt-[10px] xl:w-[373px] xxs:w-[200px] h-[63px] text-justify">
             Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.
 
             </div>
@@ -92,7 +92,7 @@ function SingleProduct() {
             <div className="mt-[24px] border-t-[1px] border-t-gray-400 w-[390px] "></div>
 
             {/* colours  */}
-            <div className="text-[14px] mr-[8px] mt-[20px] text-[#9F9F9F]">Colours:</div> 
+            <div className="text-[14px] mr-[8px] xl:mt-[20px] xxs:mt-[40px] text-[#9F9F9F]">Colours:</div> 
             <div className=" flex gap-[10px] w-[455px] h-[20px] border-3  items-center mt-[10px]">
               
               <div className="rounded-full h-[20px] w-[20px] bg-[#816DFA]  cursor-pointer "></div>
@@ -130,7 +130,7 @@ function SingleProduct() {
             <div className="mt-[24px] text-[24px] font-semibold w-[350px] h-[50px] gap-[16px]
              flex justify-center items-center ">
                 {/* 1 2 +  */}
-                <div className="rounded-[10px] flex border-2 border-gray-400 ">
+                <div className="rounded-[10px] flex border-2 border-gray-400 xxs:hidden xl:inline-block">
               <div className="w-[40px] h-[44px]  text-[30px] flex items-center 
               justify-center pb-[35px] font-bold   ">_</div>
               <div className="w-[80px] h-[44px]   flex items-center justify-center">1</div>
@@ -139,7 +139,7 @@ function SingleProduct() {
               </div>
            
             {/* buy now  */}
-            <div className="w-[180px] p-[20px] border-2 border-black text-[16px] text-center rounded-[10px]">Add To Cart</div>
+            <div className="w-[180px] p-[20px] border-2 border-black text-[16px] text-center rounded-[10px] ">Add To Cart</div>
           
             </div>
 
@@ -155,9 +155,9 @@ function SingleProduct() {
            
           </div>
         </section>
-<div className="h-[650px] w-full px-[160px]">
+<div className="h-[650px] w-full px-[160px] xxs:hidden xl:inline-block">
 
-<div className="font-semibold text-center mt-[180px] text-[18px]"> Description  &nbsp; &nbsp;   <span  className="text-[#9F9F9F]"> &nbsp; &nbsp; Additional Information</span> &nbsp; &nbsp;  <span className="text-[#9F9F9F]">Reviews [5]</span>    </div>
+<div className="font-semibold text-center mt-[180px] text-[18px] "> Description  &nbsp; &nbsp;   <span  className="text-[#9F9F9F]"> &nbsp; &nbsp; Additional Information</span> &nbsp; &nbsp;  <span className="text-[#9F9F9F]">Reviews [5]</span>    </div>
 
 
 <div className="text-[16px] text-[#9F9F9F] mt-[25px]">Embodying the raw, wayward spirit of rock  roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.
@@ -180,19 +180,19 @@ Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled
 <div className='text-[24px] font-semibold mt-[6px]'>Rs. 25,000.00</div>
     </div>
     {/* pick2  */}
-    <div>
+    <div className="xxs:hidden xl:inline-block">
     <div className='w-[287px] h-[287px] relative'><Image src={'/pick2.png'} alt='hero'  objectFit='cover' layout='fill' /></div>
 <div className='text-[16px] mt-[14px]'>Granite dining table with dining chair</div>
 <div className='text-[24px] font-semibold mt-[6px]'>Rs. 25,000.00</div>
     </div>
     {/* pick3  */}
-    <div>
+    <div className="xxs:hidden xl:inline-block">
     <div className='w-[287px] h-[287px] relative'><Image src={'/pick3.png'} alt='hero'  objectFit='cover' layout='fill' /></div>
 <div className='text-[16px] mt-[14px]'>Outdoor bar table and stool</div>
 <div className='text-[24px] font-semibold mt-[6px]'>Rs. 25,000.00</div>
     </div>
     {/* pick4  */}
-    <div>
+    <div className="xxs:hidden xl:inline-block">
     <div className='w-[287px] h-[287px] relative'><Image src={'/pick4.png'} alt='hero'  objectFit='cover' layout='fill' /></div>
 <div className='text-[16px] mt-[14px]'>Plain console with teak mirror</div>
 <div className='text-[24px] font-semibold mt-[6px]'>Rs. 25,000.00</div>

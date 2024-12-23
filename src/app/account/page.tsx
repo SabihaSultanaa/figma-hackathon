@@ -14,8 +14,8 @@ function Account() {
         </div>
 
 
-<div className='flex gap-[30px px-[200px]'>
-        <div className='w-full mx-[100px] mt-[200px] '>
+<div className='flex gap-[30px] xl:px-[200px] xxs:px-[10px]'>
+        <div className='w-full xl:mx-[100px] mt-[200px] xxs:mx-[20px] '>
             <div className='text-[36px]'> Log In</div>
             <div className='text-[16px] mt-[10px mt-[30px]'>Username or email address</div>
            <div className='border-2 w-[300px] h-[50px] border-red mt-[10px] mb-[30px]'></div>
@@ -36,7 +36,7 @@ function Account() {
 
 
 {/* register  */}
-<div className='w-full mx-[100px] mt-[200px] '>
+<div className='w-full mx-[100px] mt-[200px]  xxs:hidden xl:inline-block'>
             <div className='text-[36px]'> Register</div>
             <div className='text-[16px] mt-[10px mt-[10px]'>Email address</div>
            <div className='border-2 w-[300px] h-[50px] border-red mt-[10px]'></div>
@@ -63,7 +63,7 @@ function Account() {
             </div>
           </div>
           {/* cutomer service  */}
-          <div className="w-[300px]  gap-[8px] flex flex-col">
+          <div className="w-[300px]  gap-[8px] flex flex-col  xxs:hidden xl:inline-block">
             
             <div className="font-semibold text-[30px] ml-[13px] ">
             90 Days Return
@@ -74,7 +74,7 @@ function Account() {
           </div>
 
           {/* money back  */}
-          <div className="w-[300px] gap-[8px] flex flex-col">
+          <div className="w-[300px] gap-[8px] flex flex-col xxs:hidden xl:inline-block">
            
             <div className="font-semibold text-[30px] ml-[14px]">
             Secure Payment
