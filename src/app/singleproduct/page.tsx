@@ -157,7 +157,7 @@ function SingleProduct() {
         </section>
 <div className="h-[650px] w-full px-[160px] xxs:hidden xl:inline-block">
 
-<div className="font-semibold text-center mt-[180px] text-[18px] "> Description  &nbsp; &nbsp;   <span  className="text-[#9F9F9F]"> &nbsp; &nbsp; Additional Information</span> &nbsp; &nbsp;  <span className="text-[#9F9F9F]">Reviews [5]</span>    </div>
+<div className="font-semibold text-center mt-[180px] text-[18px] xxs:hidden xl:inline-block "> Description  &nbsp; &nbsp;   <span  className="text-[#9F9F9F]"> &nbsp; &nbsp; Additional Information</span> &nbsp; &nbsp;  <span className="text-[#9F9F9F]">Reviews [5]</span>    </div>
 
 
 <div className="text-[16px] text-[#9F9F9F] mt-[25px]">Embodying the raw, wayward spirit of rock  roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.

@@ -14,7 +14,7 @@ function Blog() {
 <div className='mt-[64px] flex gap-[0px]  justify-evenly mx-[100px]'>
 {/* b1  */}
 <div className=''>
-<div className='w-[330px] h-[350px]  relative'><Image src={'/b1.png'} alt='hero'  objectFit='cover' layout='fill'  className='rounded-[10px]'/></div>
+<div className='xl:w-[330px]  xxs:w-[200px] xl:h-[350px] xxs:h-[200px]  relative'><Image src={'/b1.png'} alt='hero'  objectFit='cover' layout='fill'  className='rounded-[10px]'/></div>
 <div className='text-[20px] mt-[16px] text-center'>Going all-in with millennial design</div>
 <div className='flex flex-col justify-center items-center'>
 <div className='text-[24px] font-semibold mt-[6px] text-center '>Read More</div>
